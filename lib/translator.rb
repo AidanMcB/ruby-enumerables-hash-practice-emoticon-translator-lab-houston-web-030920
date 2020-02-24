@@ -2,7 +2,7 @@
 require "yaml"
 def load_library(file_path)
   newHash = {}
-  
+  newHash = {:get_meaning, :get_emoticon}
   newHash
 end
 
