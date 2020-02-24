@@ -6,6 +6,7 @@ def load_library(file_path)
   lib.each do |meaning, emoticons| 
     newHash["get_meaning"][emoticons[1]] = meaning
     newHash["get_emoticon"][emoticons[0]] = emoticons[1]
+  end 
   newHash
 end
 
