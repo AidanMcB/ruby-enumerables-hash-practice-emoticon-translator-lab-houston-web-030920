@@ -1,7 +1,8 @@
 # require modules here
 require "yaml"
 def load_library(file_path)
-  lib = YAML.load_file
+  lib = YAML.load_file(file_path)
+  
   newHash = {}
   newHash
 end
